@@ -11,7 +11,7 @@ function App() {
   const [movieData , setMovieData] = useState([]);
 
   const fetchMovieData = async (query)=>{
-    const res = await fetch(`http://www.omdbapi.com/?apikey=40cc9e16&s=${query}`)
+    const res = await fetch(`https://www.omdbapi.com/?apikey=40cc9e16&s=${query}`)
     const data = await res.json();
     console.log(data.Search)
     setMovieData(data.Search)
