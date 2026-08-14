@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 function MovieDetailList({ movie }) {
-  console.log(movie);
+
   return (
     <div className="w-full flex justify-center items-center p-2 sm:p-4 bg-slate-950">
       <div className="relative w-full max-w-6xl h-[86vh] bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl flex flex-col">

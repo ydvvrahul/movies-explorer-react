@@ -13,7 +13,6 @@ const MovieDetails = () => {
           `https://www.omdbapi.com/?apikey=40cc9e16&i=${id}`,
         );
         const data = await res.json();
-        console.log(data);
         setMovie(data);
 
         if (data.Response === "True") {
