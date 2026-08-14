@@ -1,6 +1,5 @@
 import React from 'react'
 import SearchBox from '../components/SearchBox.jsx'
-import MovieCard from '../components/MovieCard.jsx'
 import MovieList from '../components/MovieList.jsx'
 
 function Home({
