@@ -87,6 +87,9 @@ function MovieDetailList({ movie }) {
                     {movie?.Actors}
                   </span>
                 </div>
+                  <span className="text-xs font-bold ml-1 text-slate-200 uppercase tracking-wider ">
+                    Boxoffice - {movie?.BoxOffice}
+                  </span>
               </div>
             </div>
           </div>
