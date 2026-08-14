@@ -63,8 +63,11 @@ function MovieDetailList({ movie }) {
                 </div>
 
                 <div className="flex flex-wrap gap-2 mt-3">
-                  <span className="px-3 py-1 bg-red-950/60 border border-red-800/40 text-red-300 text-xs font-semibold rounded-full">
+                  <span className="px-3 h-7 py-1 bg-red-950/60 border border-red-800/40 text-red-300 text-xs font-semibold rounded-full">
                     {movie?.Genre}
+                  </span>
+                  <span className="px-3  py-1 bg-green-700 border border-green-900 text-white   font-semibold rounded-full">
+                    Boxoffice - {movie?.BoxOffice}
                   </span>
                 </div>
               </div>
@@ -87,9 +90,6 @@ function MovieDetailList({ movie }) {
                     {movie?.Actors}
                   </span>
                 </div>
-                  <span className="text-xs font-bold ml-1 text-slate-200 uppercase tracking-wider ">
-                    Boxoffice - {movie?.BoxOffice}
-                  </span>
               </div>
             </div>
           </div>
