@@ -1,5 +1,5 @@
-import React from "react";
-import MovieCard from "./MovieCard.jsx";
+import React from "react"
+import MovieCard from "./MovieCard.jsx"
 
 const MovieList = ({ movieData }) => {
 

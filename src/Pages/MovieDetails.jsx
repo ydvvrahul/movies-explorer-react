@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { useParams, Link } from "react-router-dom";
-import MovieDetailList from "../components/MovieDetailList.jsx";
+import React, { useEffect, useState } from "react"
+import { useParams, Link } from "react-router-dom"
+import MovieDetailList from "../components/MovieDetailList.jsx"
 
 const MovieDetails = () => {
   const { id } = useParams();

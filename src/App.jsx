@@ -1,10 +1,10 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar.jsx";
-import Home from "./pages/Home.jsx";
-import MovieDetails from "./pages/MovieDetails.jsx";
-import About from "./pages/About.jsx";
-import Error from "./Pages/Error.jsx";
-import { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Navbar from "./components/Navbar.jsx"
+import Home from "./pages/Home.jsx"
+import MovieDetails from "./pages/MovieDetails.jsx"
+import About from "./pages/About.jsx"
+import Error from "./pages/Error.jsx"
+import { useState } from "react"
 
 function App() {
 
